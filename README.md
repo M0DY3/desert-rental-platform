@@ -6,10 +6,9 @@ An online web platform that allows users to **rent desert-specific camps, carava
 
 - 🔎 Real-time availability check for camps and equipment
 - ✅ Simple and secure online booking
-- 🚚 Delivery and pickup options for rented items
 - 🌟 Feedback and review system to ensure service quality
 - 🎁 Loyalty program and promotional offers for regular users
-- 📱 Mobile-friendly and responsive design
+
 
 ## 🧑‍💻 Technologies Used
 
