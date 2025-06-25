@@ -1,0 +1,175 @@
+/* Background image for the rental services page */
+#rental-services-page {
+    background-image: url("../images/your-background-image.jpg"); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Default body styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #808080; /* Gray background */
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+header {
+    background-color: #808080; /* Match header with the home page */
+    color: white;
+    padding: 1em 2em;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 150px; /* Logo size */
+    height: auto;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #575757; /* Darker hover color */
+    color: #D9D9D9;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(28, 28, 28, 0.8); /* Semi-transparent dark background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    margin: 50px auto; /* Center the container */
+    max-width: 600px; /* Max width for the container */
+}
+
+/* Heading styles */
+h2 {
+    color: white; /* White heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Service list styles */
+.service-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+/* Option styles */
+.option {
+    margin: 20px 0; /* Space between each service option */
+    text-align: center; /* Center the text */
+    padding: 15px; /* Padding for each option */
+    background-color: #A9A9A9; /* Dark option background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.option:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+/* Logo styles */
+.logo {
+    margin-top: 10px; /* Space above the logo */
+}
+
+.logo img {
+    width: 100px; /* Set a fixed width for the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Button styles */
+.service-button {
+    display: block; /* Makes the button take the full width of the list item */
+    padding: 10px 20px; /* Padding for button */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.service-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack navigation items vertically */
+    }
+
+    footer {
+        flex-direction: column; /* Stack footer items vertically */
+    }
+
+    .container {
+        width: 90%; /* Adjust container width for smaller screens */
+    }
+
+    .logo img {
+        width: 80px; /* Adjust logo size for smaller screens */
+    }
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-image {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 5px; /* Space between images */
+}

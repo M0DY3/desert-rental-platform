@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c2c2c;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background: #3b3b3b;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.upload-label {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-color: #555;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.upload-label:hover {
+    background-color: #777;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #444;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #007BFF;
+}
+
+.orders-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.order-button {
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+    flex: 1 1 45%; /* Adjusts the button size */
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+
+.continue-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.continue-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the header, logo, and back button */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.header .logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.header .back-button button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header .back-button button:hover {
+    background-color: #0056b3;
+    
+}
+
+
+.orders-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.order-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f8f8f8;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.order-button img {
+    height: 25px;
+    width: auto;
+}

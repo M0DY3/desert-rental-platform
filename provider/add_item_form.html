@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertising Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro-container">
+        <div class="text-container">
+            <h1>Welcome to Our Ad Platform</h1>
+            <p>Are you looking to showcase your products or services effectively? Our platform offers the perfect solution! Whether you want to create a brand new ad or update an existing one, we make the process fast, easy, and efficient.</p>
+            <p>With our platform, you can manage your ads, reach a broader audience, and grow your business effortlessly. Choose the option that best suits your needs and let's get started!</p>
+        </div>
+        <div class="options-container">
+            <button class="option-btn" id="create-ad">Create New Ad</button>
+            <button class="option-btn" id="edit-ad">Edit Existing Ad</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('create-ad').addEventListener('click', function() {
+            window.location.href = 'add_item.php';  // Redirect to the create ad page
+        });
+
+        document.getElementById('edit-ad').addEventListener('click', function() {
+            window.location.href = 'edit_item.php';  // Redirect to the edit ad page
+        });
+    </script>
+</body>
+</html>

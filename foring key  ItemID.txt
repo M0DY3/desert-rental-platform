@@ -1,0 +1,12 @@
+SELECT * FROM booking;
+SELECT * FROM feedback;
+SELECT * FROM img;
+SELECT * FROM item;
+SELECT * FROM loyaltyprogram;
+SELECT * FROM orders;
+SELECT * FROM promotions;
+SELECT * FROM provider;
+SELECT * FROM support_messages;
+SELECT * FROM users;
+SELECT * FROM admin;
+

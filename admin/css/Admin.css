@@ -1,0 +1,99 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light grey background */
+    margin: 0;
+    display: flex;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #34495e; /* Darker sidebar color */
+    color: #ecf0f1; /* Light text color */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    color: #ecf0f1; /* Light text color */
+    margin: 0 0 20px;
+}
+
+.sidebar a {
+    color: #ecf0f1; /* Light text color */
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    transition: background 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #2980b9; /* Hover color */
+}
+
+/* Main content styles */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff; /* White background for content area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Heading styles */
+h1 {
+    color: #2980b9; /* Main heading color */
+}
+
+/* Section styles for the main content */
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+.button {
+    background-color: #2980b9; /* Button background color */
+    color: #ecf0f1; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #1a5276; /* Darker shade on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #34495e; /* Footer background */
+    color: #ecf0f1; /* Footer text color */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px; /* Adjust sidebar width for smaller screens */
+    }
+
+    .main-content {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .section {
+        margin: 15px 0; /* Adjust margins for sections */
+    }
+}
