@@ -35,9 +35,9 @@ An online web platform that allows users to **rent desert-specific camps, carava
 
 ## 👥 Project Team
 
-- **Mohammed Alleyhani** – 421013073
-- **Osama Alqhtani** – 421015073
-- **Firas Alraddadi** – 421013773  
+- **Mohammed Alleyhani** @M0DY3
+- **Osama Alqhtani** 
+- **Firas Alraddadi**   
 🎓 Supervised by: Dr. Toqeer
 
 ## 🚀 How to Run Locally
